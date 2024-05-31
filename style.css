@@ -157,7 +157,6 @@ body{
 .scheme p{
     margin-top: 5px;
     font-weight: 100;
-    color: #333;
 }
 .wheat{
     font-weight: 600;
@@ -167,7 +166,7 @@ body{
 .wheat p{
     margin-top: 5px;
     font-weight: 100;
-    color: #333;}
+}
 .state-name{
     font-weight: 600;
     font-size: 12px;
@@ -176,7 +175,6 @@ body{
 .state-name p{
     margin-top: 5px;
     font-weight: 100;
-    color: #333;
 }
 .result{
     font-weight: 600;
@@ -186,7 +184,6 @@ body{
 .result p{
     margin-top: 5px;
     font-weight: 100;
-    color: #333;
 }
 .sale-state{
     font-weight: 600;
@@ -196,7 +193,6 @@ body{
 .sale-state p{
     margin-top: 5px;
     font-weight: 100;
-    color: #333;
 }
 .rice{
     font-weight: 600;
@@ -206,7 +202,6 @@ body{
 .rice p{
     margin-top: 5px;
     font-weight: 100;
-    color: #333;
 }
 .update-on{
     font-weight: 600;
@@ -216,5 +211,4 @@ body{
 .update-on p{
     margin-top: 5px;
     font-weight: 100;
-    color: #333;
 }
