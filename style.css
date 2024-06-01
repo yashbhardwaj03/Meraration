@@ -148,6 +148,7 @@ body{
     align-self: self-end;
     margin-right: 10px;
     margin-top: 10px;
+    color: #555;
 }
 .left-right{
     display: flex;
