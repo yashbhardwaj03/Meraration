@@ -6,19 +6,24 @@ document.addEventListener('DOMContentLoaded', () => {
     let results = document.querySelector(".results");
     let input = document.querySelector(".rc-number");
 
-    setTimeout(() => {
-        checkDetails.addEventListener("click", () => {
+
+    checkDetails.addEventListener("click", () => {
+        console.log('Adding event listeners after 5 seconds');
+        setTimeout(() => {
+            console.log('Check details clicked');
             cards.style.display = "flex";
             results.style.display = "flex";
-        });
-        reset.addEventListener("click", () => {
-            cards.style.display = "none";
-            results.style.display = "none";
-            input.value = ""; // Clear the input field
-        }); 
-    }, 1000);
+        }, 1000);
+    });
 
-    
+    reset.addEventListener("click", () => {
+        cards.style.display = "none";
+        results.style.display = "none";
+        input.value = ""; // Clear the input field
+    });
+
+
+
 });
 
 
