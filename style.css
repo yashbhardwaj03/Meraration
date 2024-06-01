@@ -136,7 +136,7 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #c0c0c0;
     border-radius: 5px;
     padding-bottom: 10px;
 }
